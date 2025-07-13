@@ -1,0 +1,23 @@
+body {
+  font-family: "Jost", sans-serif;
+}
+
+.sliding-underline {
+  position: relative;
+}
+
+.sliding-underline:after {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  background: #222;
+  transition: width 0.3s ease 0s;
+  width: 0;
+}
+
+.sliding-underline:hover:after {
+  width: 100%;
+}
