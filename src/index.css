@@ -3,6 +3,7 @@ body {
 }
 
 .sliding-underline {
+  display: inline;
   position: relative;
 }
 

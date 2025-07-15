@@ -18,24 +18,24 @@ const Header = () => {
             <Logo />
           </div>
           <div>
-            <ul className="flex gap-x-10 font-medium text-sm text-">
+            <ul className="flex gap-x-10 font-medium text-sm">
               <Link to={"/"}>
-                <li className="sliding-underline px-2 py-1.5">HOME</li>
+                <li className="sliding-underline py-1.5">HOME</li>
               </Link>
               <Link to={"shop"}>
-                <li className="sliding-underline px-2 py-1.5">SHOP</li>
+                <li className="sliding-underline py-1.5">SHOP</li>
               </Link>
               <Link to={"collection"}>
-                <li className="sliding-underline px-2 py-1.5">COLLECTION</li>
+                <li className="sliding-underline py-1.5">COLLECTION</li>
               </Link>
               <Link to={"journal"}>
-                <li className="sliding-underline px-2 py-1.5">JOURNAL</li>
+                <li className="sliding-underline py-1.5">JOURNAL</li>
               </Link>
               <Link to={"lookbook"}>
-                <li className="sliding-underline px-2 py-1.5">LOOKBOOK</li>
+                <li className="sliding-underline py-1.5">LOOKBOOK</li>
               </Link>
               <Link to={"pages"}>
-                <li className="sliding-underline px-2 py-1.5">PAGES</li>
+                <li className="sliding-underline py-1.5">PAGES</li>
               </Link>
             </ul>
           </div>
