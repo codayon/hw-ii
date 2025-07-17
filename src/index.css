@@ -4,20 +4,22 @@ body {
 }
 
 .sliding-underline {
-  display: inline;
+  display: inline-block;
   position: relative;
+  padding: 6px 0px;
+  cursor: pointer;
 }
 
 .sliding-underline:after {
-  bottom: 0;
   content: "";
   display: block;
-  height: 2px;
-  left: 0;
   position: absolute;
-  background: #222;
-  transition: width 0.3s ease 0s;
+  left: 0;
+  bottom: 0;
   width: 0;
+  height: 2px;
+  background: #222;
+  transition: width 0.5s ease 0s;
 }
 
 .sliding-underline:hover:after {

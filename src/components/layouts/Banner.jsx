@@ -10,7 +10,7 @@ import Container from "../Container";
 
 const Banner = () => {
   return (
-    <section className="flex pb-18">
+    <section className="flex pb-11">
       <div className="flex flex-col gap-y-14 items-center justify-center text-gray-b">
         <div className="flex flex-col gap-y-6">
           <FaFacebookF />
@@ -35,7 +35,7 @@ const Banner = () => {
               SUMMER SALE STYLISH <span className="font-bold">WOMENS</span>
             </h1>
             <div className="pb-64">
-              <button className="sliding-underline font-medium text-sm py-1.5">
+              <button className="sliding-underline font-medium text-sm ">
                 DISCOVER MORE
               </button>
             </div>

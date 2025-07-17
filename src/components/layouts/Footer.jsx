@@ -50,19 +50,19 @@ const Footer = () => {
             <h4 className="text-lg font-medium pb-12">COMPANY</h4>
             <ul className="flex flex-col gap-y-6 text-sm">
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">About Us</li>
+                <li className="sliding-underline ">About Us</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Careers</li>
+                <li className="sliding-underline ">Careers</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Affiliates</li>
+                <li className="sliding-underline ">Affiliates</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Blog</li>
+                <li className="sliding-underline ">Blog</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Contact Us</li>
+                <li className="sliding-underline ">Contact Us</li>
               </Link>
             </ul>
           </div>
@@ -71,19 +71,19 @@ const Footer = () => {
             <h4 className="text-lg font-medium pb-12">SHOP</h4>
             <ul className="flex flex-col gap-y-6 text-sm">
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">New Arrivals</li>
+                <li className="sliding-underline ">New Arrivals</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Accessories</li>
+                <li className="sliding-underline ">Accessories</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Men</li>
+                <li className="sliding-underline ">Men</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Women</li>
+                <li className="sliding-underline ">Women</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Shop All</li>
+                <li className="sliding-underline ">Shop All</li>
               </Link>
             </ul>
           </div>
@@ -92,22 +92,22 @@ const Footer = () => {
             <h4 className="text-lg font-medium pb-12">HELP</h4>
             <ul className="flex flex-col gap-y-6 text-sm">
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Customer Service</li>
+                <li className="sliding-underline ">Customer Service</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">My Account</li>
+                <li className="sliding-underline ">My Account</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Find a Store</li>
+                <li className="sliding-underline ">Find a Store</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Legal & Privacy</li>
+                <li className="sliding-underline ">Legal & Privacy</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Contact</li>
+                <li className="sliding-underline ">Contact</li>
               </Link>
               <Link to={"/"}>
-                <li className="sliding-underline py-1.5">Gift Card</li>
+                <li className="sliding-underline ">Gift Card</li>
               </Link>
             </ul>
           </div>
