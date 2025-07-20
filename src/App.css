@@ -2,9 +2,11 @@
 
 @theme {
   --color-black-a: #222222;
+  --color-white-a: #f5f4f9;
   --color-gray-a: #e3e4e4;
   --color-gray-b: #767676;
   --color-gray-c: #cfcdcd;
   --color-pink-a: #f5e6e0;
   --color-red-a: #c32929;
+  --color-red-b: #d6001c;
 }
