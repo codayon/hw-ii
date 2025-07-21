@@ -2,7 +2,6 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Logo from "../../assets/icons/Logo";
-import { Link } from "react-router";
 import SecurePayments from "../../assets/images/secure-payments.png";
 import {
   FaFacebookF,
@@ -12,6 +11,7 @@ import {
   FaPinterest,
 } from "react-icons/fa";
 import { IoIosArrowUp } from "react-icons/io";
+import MenuItem from "../MenuItem";
 
 const Footer = () => {
   return (
@@ -28,87 +28,45 @@ const Footer = () => {
               sale@uomo.com +1 246-345-0695
             </p>
             <Flex className={"gap-x-8 pt-14"}>
-              <Link to={"/"}>
-                <FaFacebookF className="hover:text-gray-b" />
-              </Link>
-              <Link to={"/"}>
-                <FaTwitter className="hover:text-gray-b" />
-              </Link>
-              <Link to={"/"}>
-                <FaInstagram className="hover:text-gray-b" />
-              </Link>
-              <Link to={"/"}>
-                <FaYoutube className="hover:text-gray-b" />
-              </Link>
-              <Link to={"/"}>
-                <FaPinterest className="hover:text-gray-b" />
-              </Link>
+              <FaFacebookF className="hover:text-gray-b cursor-pointer" />
+              <FaTwitter className="hover:text-gray-b cursor-pointer" />
+              <FaInstagram className="hover:text-gray-b cursor-pointer" />
+              <FaYoutube className="hover:text-gray-b cursor-pointer" />
+              <FaPinterest className="hover:text-gray-b cursor-pointer" />
             </Flex>
           </div>
           {/* company */}
           <div>
             <h4 className="text-lg font-medium pb-12">COMPANY</h4>
             <ul className="flex flex-col gap-y-6 text-sm">
-              <Link to={"/"}>
-                <li className="sliding-underline ">About Us</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Careers</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Affiliates</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Blog</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Contact Us</li>
-              </Link>
+              <MenuItem label={"About Us"} />
+              <MenuItem label={"Careers"} />
+              <MenuItem label={"Affiliates"} />
+              <MenuItem label={"Blog"} />
+              <MenuItem label={"Contact Us"} />
             </ul>
           </div>
           {/* shop */}
           <div>
             <h4 className="text-lg font-medium pb-12">SHOP</h4>
             <ul className="flex flex-col gap-y-6 text-sm">
-              <Link to={"/"}>
-                <li className="sliding-underline ">New Arrivals</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Accessories</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Men</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Women</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Shop All</li>
-              </Link>
+              <MenuItem label={"New Arrivals"} />
+              <MenuItem label={"Accessories"} />
+              <MenuItem label={"Men"} />
+              <MenuItem label={"Women"} />
+              <MenuItem label={"Shop All"} />
             </ul>
           </div>
           {/* help */}
           <div>
             <h4 className="text-lg font-medium pb-12">HELP</h4>
             <ul className="flex flex-col gap-y-6 text-sm">
-              <Link to={"/"}>
-                <li className="sliding-underline ">Customer Service</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">My Account</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Find a Store</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Legal & Privacy</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Contact</li>
-              </Link>
-              <Link to={"/"}>
-                <li className="sliding-underline ">Gift Card</li>
-              </Link>
+              <MenuItem label={"Customer Service"} />
+              <MenuItem label={"My Account"} />
+              <MenuItem label={"Find a Store"} />
+              <MenuItem label={"Legal & Privacy"} />
+              <MenuItem label={"Contact"} />
+              <MenuItem label={"Gift Card"} />
             </ul>
           </div>
           {/* subscribe */}

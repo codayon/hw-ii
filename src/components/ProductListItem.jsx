@@ -3,6 +3,7 @@ import Flex from "./Flex";
 import LilHeart from "../assets/icons/LilHeart";
 
 const ProductListItem = ({
+  imgClass,
   categoryName,
   productName,
   normalPrice,
@@ -11,7 +12,7 @@ const ProductListItem = ({
 }) => {
   return (
     <div className="w-[330px]">
-      <div className="h-[400px] w-full bg-white-a"></div>
+      <div className={`h-[400px] w-full ${imgClass}`}></div>
       <div className="pt-3">
         <Flex className={"justify-between"}>
           <h5 className="text-gray-b text-sm">{categoryName}</h5>

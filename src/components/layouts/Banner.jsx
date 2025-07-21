@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa";
 import BannerImage from "../../assets/images/banner.png";
 import Container from "../Container";
+import Button from "../Button";
 
 const Banner = () => {
   return (
@@ -35,9 +36,7 @@ const Banner = () => {
               SUMMER SALE STYLISH <span className="font-bold">WOMENS</span>
             </h1>
             <div className="pb-64">
-              <button className="sliding-underline font-medium text-sm ">
-                DISCOVER MORE
-              </button>
+              <Button text={"DISCOVER MORE"} className={'group'}/>
             </div>
           </Container>
         </div>
